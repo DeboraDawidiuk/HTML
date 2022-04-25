@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .paragrafo-1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="paragrafo-1">Classes</p>
+    <p id="paragrafo">Identificador através de um ID</p>
+    <p title="Este é um exemplo do atributo title">Título com tooltip</p>
+    <p id= "paragrafo-2"data-exemplo="Dados de exemplo">Dados passados com a etiqueta</p>
+
+    <script>
+        const paragrafo = document.getElementById("paragrafo")
+        const paragrafo2 = document.getElementById("paragrafo-2")
+
+        console.log(paragrafo.textContent)
+    </script>
+</body>
+</html>
